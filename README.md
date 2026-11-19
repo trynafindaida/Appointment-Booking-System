@@ -1,23 +1,61 @@
-# ویزیت‌یار — فقط رابط کاربری (HTML + CSS)
+# VisitYar — Doctor Appointment Booking UI
 
-این نسخه، **نسخهٔ استاتیک طراحی ظاهر سایت** است؛ برای ارائهٔ مرحلهٔ HTML/CSS.
+VisitYar is a static, Persian (right-to-left) user interface prototype for an online doctor appointment booking system. This version focuses on the visual layout and page structure built with **HTML5** and **CSS3**.
 
-## اجرا
+## Preview the Project
 
-فایل `index.html` را با مرورگر باز کن. نیازی به نصب Python، دیتابیس یا اجرای سرور نیست.
+No installation or local server is required.
 
-## فایل‌ها
+1. Download or clone this repository.
+2. Open `index.html` in a web browser.
 
-- `index.html`: ساختار همهٔ بخش‌ها، کارت پزشکان، فرم ورود، فرم رزرو، پیش‌نمایش و تقویم نمونهٔ شمسی.
-- `static/style.css`: رنگ‌ها، طرح‌بندی، فاصله‌ها، کارت‌ها، واکنش‌گرایی و نمایش تقویم.
-- `static/avatar-female.svg` و `static/avatar-male.svg`: آواتارهای سادهٔ قبلی.
+## Features Included
 
-## محدودهٔ کار
+- Responsive landing page and navigation
+- Doctor cards with names, specialties, and avatar illustrations
+- Appointment booking layout with doctor, date, and time sections
+- Static Jalali (Persian) calendar preview
+- Appointment summary panel
+- Sign-in and registration form layouts
+- Patient appointments section layout
+- Right-to-left Persian interface
 
-- طراحی و نمایش بصری **کامل است**؛ لینک‌های ناوبری داخل صفحه و بازشدن نمای تقویم با تگ HTML `details` کار می‌کنند.
-- انتخاب پزشک، تاریخ یا ساعت، خلاصهٔ رزرو را به‌روزرسانی نمی‌کند؛ مقادیر صرفاً نمونهٔ ثابت هستند.
-- دکمه‌های ورود، ثبت نوبت و تازه‌سازی عملکرد واقعی ندارند.
-- **هیچ JavaScript، بک‌اند Python، API یا دیتابیس** در این بسته وجود ندارد.
-- داده‌های پزشکان و تاریخ‌ها ساختگی و برای نمایش هستند.
+## Built With
 
-برای گزارش پیشرفت، بهتر است صادقانه آن را «نمونهٔ استاتیک رابط کاربری سامانهٔ نوبت‌دهی پزشک با HTML/CSS» معرفی کنی؛ اتصال تعاملات و API را برای مراحل بعدی نگه دار.
+- **HTML5** — page structure and content
+- **CSS3** — styling, layout, and responsive design
+- **CSS Grid and Flexbox** — page and component layouts
+- **Media Queries** — responsive behavior on smaller screens
+
+## Project Structure
+
+```text
+visit-yar/
+├── index.html
+├── README.md
+└── static/
+    ├── style.css
+    ├── avatar-female.svg
+    └── avatar-male.svg
+```
+
+## Current Scope
+
+This repository contains the **UI-only static prototype**. The content is sample content for demonstration purposes.
+
+The following functionality is not implemented in this version:
+
+- Dynamic doctor or appointment data
+- Interactive doctor, date, or time selection
+- User authentication
+- Appointment creation, cancellation, or management
+- Backend services, APIs, or database integration
+
+The calendar is a static visual preview. Its panel can be opened and closed using the browser's native HTML disclosure element; selecting a date does not update the appointment summary.
+
+## Next Development Steps
+
+1. Add client-side interactions with JavaScript.
+2. Connect the interface to a Python backend.
+3. Store users and appointments in a database.
+4. Implement and test the complete booking workflow.
