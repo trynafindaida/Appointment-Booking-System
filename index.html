@@ -1,0 +1,176 @@
+<!doctype html>
+<html dir="rtl" lang="fa">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#112b4b" name="theme-color"/>
+<meta content="ویزیت‌یار | نسخه نمایشی سامانه رزرو نوبت ویزیت پزشک" name="description"/>
+<title>ویزیت‌یار | نوبت‌دهی آنلاین پزشک</title>
+<link href="static/style.css" rel="stylesheet"/>
+
+</head>
+<body>
+<header class="header">
+<div class="container nav">
+<a aria-label="صفحه اصلی ویزیت‌یار" class="brand" href="#top">
+<span class="brand-symbol">✳</span>
+<span class="brand-text"><strong>ویزیت‌یار</strong><small>نوبت‌دهی آنلاین پزشک</small></span>
+</a>
+<nav aria-label="منوی اصلی" class="nav-links">
+<a href="#doctors">پزشکان</a>
+<a href="#booking">دریافت نوبت</a>
+<a href="#my-appointments">نوبت‌های من</a>
+</nav>
+<div class="nav-actions">
+
+<a class="button button-dark small" href="#account" id="nav-login">ورود / ثبت‌نام</a>
+
+</div>
+</div>
+</header>
+<main id="top">
+<section class="hero">
+<div class="container hero-grid">
+<div class="hero-copy">
+<h1>وقت دکتر رو <span>راحت‌تر</span> رزرو کن.</h1>
+<p>پزشک موردنظرت رو انتخاب کن، ساعت‌های آزادش رو ببین و در چند قدم یه نوبت بگیر. بدون نیاز به تماس تلفنی.</p>
+<div class="hero-actions">
+<a class="button button-mint big" href="#booking">دریافت نوبت <span aria-hidden="true">←</span></a>
+<a class="button button-ghost big" href="#doctors">مشاهده پزشکان</a>
+</div>
+</div>
+<div aria-hidden="true" class="hero-visual">
+<div class="halo halo-1"></div><div class="halo halo-2"></div>
+<div class="floating-tag tag-top">✦ انتخاب سریع زمان مناسب</div>
+<div class="preview-card">
+<div class="preview-top"><span class="preview-label">پیش‌نمایش رزرو</span><span class="preview-check">✓</span></div>
+<div class="preview-physician">
+<div class="preview-avatar"><img alt="" height="44" src="static/avatar-female.svg" width="44"/></div>
+<div><strong>دکتر لیلا امینی</strong><small>پزشک عمومی</small></div>
+</div>
+<div class="preview-divider"></div>
+<div class="preview-row"><span>📅  روز و تاریخ</span><strong>به انتخاب شما</strong></div>
+<div class="preview-row"><span>◷  زمان ویزیت</span><strong>۱۰:۳۰ صبح</strong></div>
+<div class="preview-bottom"><span>یک قدم تا رزرو نوبت</span><span>←</span></div>
+</div>
+</div>
+</div>
+</section>
+<section class="steps-band">
+<div class="container steps">
+<div class="step"><span class="step-num">۰۱</span><div><strong>پزشکت رو انتخاب کن</strong><small>از بین تخصص‌های موجود</small></div></div>
+<span class="step-separator"></span>
+<div class="step"><span class="step-num">۰۲</span><div><strong>زمان خالی رو پیدا کن</strong><small>با مشاهده ساعت‌های آزاد</small></div></div>
+<span class="step-separator"></span>
+<div class="step"><span class="step-num">۰۳</span><div><strong>نوبتت رو ثبت کن</strong><small>و در حساب خودت نگه دار</small></div></div>
+</div>
+</section>
+<section class="section doctors-section" id="doctors">
+<div class="container">
+<div class="section-head"><div><span class="eyebrow">پزشکان سامانه</span><h2>دکتر مناسب خودت رو پیدا کن</h2><p>روی «انتخاب پزشک» بزن تا مستقیم وارد بخش رزرو بشی.</p></div></div>
+<div aria-live="polite" class="doctors-grid" id="doctors-grid"><article class="doctor-card">
+<div class="doctor-avatar" style="background-color:#dfeafe"><img alt="" height="52" src="static/avatar-female.svg" width="52"/></div>
+<h3>دکتر لیلا امینی</h3>
+<div class="specialty">پزشک عمومی</div>
+<div class="doctor-detail">◷ نوبت‌دهی در روزهای فعال</div>
+<a class="button button-outline" href="#booking">انتخاب پزشک ←</a>
+</article><article class="doctor-card">
+<div class="doctor-avatar" style="background-color:#dfeafe"><img alt="" height="52" src="static/avatar-male.svg" width="52"/></div>
+<h3>دکتر آرش مهران</h3>
+<div class="specialty">متخصص داخلی</div>
+<div class="doctor-detail">◷ نوبت‌دهی در روزهای فعال</div>
+<a class="button button-outline" href="#booking">انتخاب پزشک ←</a>
+</article><article class="doctor-card">
+<div class="doctor-avatar" style="background-color:#dfeafe"><img alt="" height="52" src="static/avatar-female.svg" width="52"/></div>
+<h3>دکتر سارا نیک‌پی</h3>
+<div class="specialty">متخصص پوست و مو</div>
+<div class="doctor-detail">◷ نوبت‌دهی در روزهای فعال</div>
+<a class="button button-outline" href="#booking">انتخاب پزشک ←</a>
+</article><article class="doctor-card">
+<div class="doctor-avatar" style="background-color:#dfeafe"><img alt="" height="52" src="static/avatar-female.svg" width="52"/></div>
+<h3>دکتر مریم فرهمند</h3>
+<div class="specialty">متخصص کودکان</div>
+<div class="doctor-detail">◷ نوبت‌دهی در روزهای فعال</div>
+<a class="button button-outline" href="#booking">انتخاب پزشک ←</a>
+</article></div>
+</div>
+</section>
+<section class="section booking-section" id="booking">
+<div class="container">
+<div class="section-head"><div><span class="eyebrow">رزرو نوبت</span><h2>زمان ویزیتت رو انتخاب کن</h2><p>فقط ساعت‌های قابل رزرو فعال هستند.</p></div></div>
+<div class="booking-layout">
+<div class="booking-main">
+<div class="booking-block">
+<div class="block-head"><div class="block-number">۱</div><div><h3>انتخاب پزشک</h3><p>پزشکی که می‌خوای باهاش نوبت بگیری</p></div></div>
+<div class="field"><label for="doctor-select">پزشک و تخصص</label><select aria-label="انتخاب پزشک" id="doctor-select"><option value="1">دکتر لیلا امینی — پزشک عمومی</option><option value="2">دکتر آرش مهران — متخصص داخلی</option><option value="3">دکتر سارا نیک‌پی — متخصص پوست و مو</option><option value="4">دکتر مریم فرهمند — متخصص کودکان</option></select></div>
+</div>
+<div class="booking-block">
+<div class="block-head"><div class="block-number">۲</div><div><h3>انتخاب تاریخ</h3><p>از فردا تا ۳۰ روز آینده؛ جمعه‌ها تعطیل</p></div></div>
+<div aria-label="انتخاب تاریخ" class="date-chips" id="date-chips"><button aria-pressed="false" class="date-chip" type="button"><small>شنبه</small><strong>۳۰</strong></button><button aria-pressed="false" class="date-chip" type="button"><small>یکشنبه</small><strong>۱</strong></button><button aria-pressed="true" class="date-chip active" type="button"><small>دوشنبه</small><strong>۲</strong></button><button aria-pressed="false" class="date-chip" type="button"><small>سه‌شنبه</small><strong>۳</strong></button><button aria-pressed="false" class="date-chip" type="button"><small>چهارشنبه</small><strong>۴</strong></button><button aria-pressed="false" class="date-chip" type="button"><small>پنجشنبه</small><strong>۵</strong></button><button aria-pressed="false" class="date-chip" type="button"><small>شنبه</small><strong>۷</strong></button></div>
+<div class="date-extra">
+<span class="date-extra-label">یا یک روز دیگر انتخاب کن:</span>
+<details class="jalali-picker">
+<summary class="jalali-trigger" id="date-input">دوشنبه ۲ آذر ۱۴۰۵</summary>
+<div aria-label="تقویم هجری شمسی" class="jalali-calendar" id="jalali-calendar">
+<div class="jalali-month-bar"><button aria-label="ماه قبل" disabled="" id="jalali-prev" type="button">❯</button><strong id="jalali-month">آذر ۱۴۰۵</strong><button aria-label="ماه بعد" disabled="" id="jalali-next" type="button">❮</button></div>
+<div aria-hidden="true" class="jalali-weekdays"><span>ش</span><span>ی</span><span>د</span><span>س</span><span>چ</span><span>پ</span><span>ج</span></div>
+<div class="jalali-days" id="jalali-days"><span class="jalali-blank"></span><span class="jalali-day">۱</span><span class="jalali-day active">۲</span><span class="jalali-day">۳</span><span class="jalali-day">۴</span><span class="jalali-day">۵</span><span class="jalali-day">۶</span><span class="jalali-day">۷</span><span class="jalali-day">۸</span><span class="jalali-day">۹</span><span class="jalali-day">۱۰</span><span class="jalali-day">۱۱</span><span class="jalali-day">۱۲</span><span class="jalali-day">۱۳</span><span class="jalali-day">۱۴</span><span class="jalali-day">۱۵</span><span class="jalali-day">۱۶</span><span class="jalali-day">۱۷</span><span class="jalali-day">۱۸</span><span class="jalali-day">۱۹</span><span class="jalali-day">۲۰</span><span class="jalali-day">۲۱</span><span class="jalali-day">۲۲</span><span class="jalali-day">۲۳</span><span class="jalali-day">۲۴</span><span class="jalali-day">۲۵</span><span class="jalali-day">۲۶</span><span class="jalali-day">۲۷</span><span class="jalali-day">۲۸</span><span class="jalali-day">۲۹</span><span class="jalali-day">۳۰</span></div>
+</div>
+</details>
+</div>
+</div>
+<div class="booking-block last">
+<div class="block-head"><div class="block-number">۳</div><div><h3>انتخاب ساعت ویزیت</h3><p>ساعت‌های پر قابل انتخاب نیستند.</p></div></div>
+<div aria-live="polite" class="slot-grid" id="slot-grid"><button class="slot" type="button">09:00</button><button class="slot" type="button">09:30</button><button class="slot busy" type="button">10:00</button><button class="slot active" type="button">10:30</button><button class="slot" type="button">11:00</button><button class="slot" type="button">11:30</button><button class="slot" type="button">14:00</button><button class="slot busy" type="button">14:30</button><button class="slot" type="button">15:00</button><button class="slot" type="button">15:30</button><button class="slot" type="button">16:00</button><button class="slot" type="button">16:30</button></div>
+<div class="legend"><span><i class="legend-dot free"></i> آزاد</span><span><i class="legend-dot busy"></i> پرشده</span><span><i class="legend-dot selected"></i> انتخاب من</span></div>
+</div>
+</div>
+<aside class="booking-side">
+<div class="summary-card">
+<div class="summary-title"><span>🩺</span><h3>خلاصه نوبت</h3></div>
+<div class="summary-item"><span>پزشک</span><strong id="summary-doctor">دکتر لیلا امینی</strong></div>
+<div class="summary-item"><span>تخصص</span><strong id="summary-specialty">پزشک عمومی</strong></div>
+<div class="summary-item"><span>تاریخ</span><strong id="summary-date">دوشنبه ۲ آذر ۱۴۰۵</strong></div>
+<div class="summary-item"><span>ساعت</span><strong id="summary-time">10:30</strong></div>
+<div class="summary-footer">
+<p id="booking-hint">پزشک و زمان موردنظرت رو انتخاب کن.</p>
+<button class="button button-mint full" id="book-button" title="فقط نمای رابط کاربری؛ ثبت واقعی نوبت در این نسخه پیاده‌سازی نشده است." type="button">تأیید و ثبت نوبت ←</button>
+</div>
+</div>
+</aside>
+</div>
+</div>
+</section>
+<section class="section account-section" id="account">
+<div class="container account-grid">
+<div class="account-panel">
+<div id="guest-account">
+<div class="tabs"><button aria-pressed="true" class="tab active" id="login-tab" type="button">ورود به حساب</button><button aria-pressed="false" class="tab" id="register-tab" type="button">ساخت حساب</button></div>
+<h3 id="account-title">خوش اومدی 👋</h3>
+<p class="form-subtitle" id="account-subtitle">برای دیدن نوبت‌های خودت وارد شو.</p>
+<form action="#account" id="auth-form" method="get">
+<div class="field hidden" id="name-wrap"><label for="auth-name">نام و نام خانوادگی</label><input autocomplete="name" id="auth-name" maxlength="80" minlength="2" placeholder="مثلاً: نگار احمدی" type="text"/></div>
+<div class="field"><label for="auth-phone">شماره موبایل</label><input autocomplete="tel" id="auth-phone" inputmode="numeric" maxlength="11" placeholder="09123456789" type="tel"/></div>
+<div class="field"><label for="auth-password">رمز عبور</label><input autocomplete="current-password" id="auth-password" maxlength="72" minlength="8" placeholder="حداقل ۸ کاراکتر" type="password"/></div>
+<button class="button button-dark full auth-submit" id="auth-submit" title="ورود در این نسخه نمایشی فعال نیست." type="button">ورود به حساب ←</button>
+</form>
+</div>
+<div class="signed-in hidden" id="signed-in-account">
+<div class="success-ring">✓</div>
+<h3>وارد حسابت شدی!</h3>
+<p id="signed-in-name"></p>
+<a class="button button-dark full" href="#my-appointments">دیدن نوبت‌های من ←</a>
+</div>
+</div>
+</div>
+</section>
+<section class="section my-section" id="my-appointments">
+<div class="container">
+<div class="section-head"><div><span class="eyebrow">پنل بیمار</span><h2>نوبت‌های من</h2></div><button class="button button-outline small" id="refresh-appointments" title="نمایشی — برای نسخه بعدی" type="button">↻ تازه‌سازی</button></div>
+<div aria-live="polite" class="appointments-content" id="my-appointments-content"><div class="empty-state"><span>🔒</span><strong>برای نمایش نوبت‌ها وارد شو</strong><a class="button button-dark small" href="#account">ورود / ثبت‌نام</a></div></div>
+</div>
+</section>
+</main>
+
+</body>
+</html>
